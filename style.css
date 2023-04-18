@@ -1,0 +1,563 @@
+* {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.section-padding {
+  padding: 100px 0;
+}
+
+
+
+/* .carousel-item{
+    height: 100vh;
+    min-height: 300px;
+}
+
+.carousel-caption{
+    bottom: 220px;
+    z-index: 2;
+}
+
+.carousel-caption h5{
+    font-size: 45px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-top: 25px;
+}
+
+.carousel-caption p{
+    width: 60%;
+    margin: auto;
+    font-size: 18px;
+    line-height: 1.9;
+}
+
+.carousel-inner::before{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+   background: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+
+} */
+
+.navbar-nav a {
+  font-size: 15px;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+.navbar-light .navabar-brand {
+  color: #000;
+  font-size: 25px;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.navbar-light .navabar-brand:focus,
+.navbar-light .navbar-brand:hover {
+  color: #000;
+}
+
+.navbar-light .navbar-nav .navbar-link {
+  color: #000;
+}
+
+.w-100 {
+  height: 100vh;
+}
+
+@media only screen and (min-width: 767px) and (max-width: 991px) {
+  .carousel-caption {
+    bottom: 370px;
+  }
+
+  .carousel-caption p {
+    width: 100%;
+  }
+
+  #img {
+    margin-top: 10px;
+  }
+
+}
+
+
+/* @media only screen and (max-width: 1024px){
+  #phonemail{
+    display: hide;
+  }
+} */
+
+@media only screen and (min-width: 767px) {
+  .navbar-nav {
+    text-align: center;
+  }
+
+  .carousel-caption {
+    bottom: 125px;
+  }
+
+  .carousel-caption h5 {
+    font-size: 17px;
+  }
+
+  .carousel-caption a {
+    padding: 10px 15px;
+  }
+
+  .carousel-caption p {
+    width: 100%;
+    line-height: 1.6;
+    font-size: 12px;
+  }
+
+  #img {
+    margin-top: 15px;
+  }
+
+  .column {
+    width: 100%;
+  }
+
+  .login {
+    width: 100%;
+  }
+
+  #phonemail{
+    display: hide;
+  }
+
+
+}
+
+#aboutimg {
+  border-radius: 10px;
+}
+
+#about-img2 {
+  height: 500px;
+  border-radius: 10px;
+}
+
+.service .card-body i {
+  font-size: 50px;
+}
+
+#map {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* aminities */
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}
+
+@media screen and (max-width: 500px) {
+  .column {
+    width: 100%;
+  }
+
+  #utube{
+    width: 405px;
+  }
+
+  #img{
+    margin-top: 10px;
+  }
+}
+
+#gallery {
+  height: 400px;
+  width: 500px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 10px;
+}
+
+/* form */
+
+#carouselExampleSlidesOnly {
+  position: relative;
+  width: 100%;
+}
+
+.login {
+  position: absolute;
+  top: 80px;
+  width: 300px;
+  height: 460px;
+  padding: 20px;
+  border-radius: 12px;
+  background: #ffffff;
+  z-index: 1;
+  right: 30px;
+  font-size: 15px;
+}
+
+.madalbox{
+  padding: 20px;
+  border-radius: 12px;
+  background: #ffffff;
+  font-size: 15px;
+
+}
+
+.login h5 {
+  font-size: 36px;
+  margin-bottom: 25px;
+}
+
+.login form {
+  font-size: 20px;
+}
+
+.login form .form-group {
+  margin-bottom: 12px;
+}
+
+#submitbtn {
+  margin-top: 15px;
+}
+
+.temp {
+  position: absolute;
+  width: 350px;
+  z-index: 2;
+  font-size: 15px;
+  top: 40px;
+  /* top: 65px; */
+  left: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  /* background-color: rgb(255, 193, 7, 0.7); */
+  /* background-color: #ffffff; */
+}
+
+.offer {
+  animation: offer 0.8s linear infinite;
+}
+@keyframes offer {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}
+
+.form-label {
+  font-size: 15px;
+}
+
+@media only screen and (max-width: 769px) {
+    .login {
+        position: unset;
+        width: 100%;
+      }
+      .temp {
+        width: unset;
+        position: absolute;
+        top: 75px;
+        right: 20px;
+        height: 54vh;
+        overflow: hidden;
+      }
+
+      .main{
+        animation: scroll 10s linear infinite;
+        /* animation: scroll 20s linear infinite */
+      }
+    
+      @keyframes scroll {
+        0% {
+          transform: translateY(0); /* start at initial position */
+        }
+        100% {
+          transform: translateY(-50%); /* end at top of container */
+        }
+      } 
+      .main:hover{
+        animation-play-state: paused;
+      } 
+
+  .about-text {
+    border-top: solid;
+    padding-top: 5px;
+  }
+
+  #phonemail{
+    display: hide;
+  }
+}
+@media only screen and (max-width: 426px) {
+  .login {
+    position: unset;
+    width: 100%;
+  }
+  .temp {
+    width: unset;
+    position: absolute;
+    top: 75px;
+    right: 20px;
+    height: 54vh;
+    overflow: hidden;
+  }
+
+  #utube{
+    width: 365px;
+  }
+
+  .login h5 {
+    font-size: 32px;
+}
+
+#img{
+  margin-top: 10px;
+
+}
+#img{
+  margin-top: 10px;
+}
+
+  .main{
+    animation: scroll 10s linear infinite;
+    /* animation: scroll 20s linear infinite */
+  }
+
+
+  @keyframes scroll {
+    0% {
+      transform: translateY(0); /* start at initial position */
+    }
+    100% {
+      transform: translateY(-50%); /* end at top of container */
+    }
+  } 
+  .main:hover{
+    animation-play-state: paused;
+  } 
+
+  .about-img2 {
+    margin-top: 40px;
+  }
+
+  .map {
+    margin-top: 100px;
+  }
+
+  .maps2 {
+    margin-top: 20px;
+  }
+
+  #gall {
+    height: 110vh;
+  }
+
+  /* .about-text {
+    border-top: solid;
+  } */
+}
+@media only screen and (max-width: 376px) {
+  .login {
+    position: unset;
+    width: 100%;
+  }
+  .temp {
+    width: unset;
+    position: absolute;
+    top:75px;
+    right: 20px;
+    height: 49vh;
+    overflow: hidden;
+  }
+
+  .login h5 {
+    font-size: 28px;
+}
+#img{
+  margin-top: 10px;
+}
+
+#utube{
+  width: 335px;
+}
+
+  .main{
+    animation: scroll 10s linear infinite;
+    /* animation: scroll 20s linear infinite */
+  }
+
+  @keyframes scroll {
+    0% {
+      transform: translateY(0); /* start at initial position */
+    }
+    100% {
+      transform: translateY(-50%); /* end at top of container */
+    }
+  } 
+  .main:hover{
+    animation-play-state: paused;
+  } 
+
+  .about-img2 {
+    margin-top: 40px;
+  }
+
+  .map {
+    margin-top: 100px;
+  }
+
+  .maps2 {
+    margin-top: 20px;
+  }
+
+  #gall {
+    height: 110vh;
+  }
+
+  /* .about-text {
+    border-top: solid;
+  } */
+}
+@media only screen and (max-width: 321px) {
+  .login {
+    position: unset;
+    width: 100%;
+  }
+  .temp {
+    width: unset;
+    height: 49vh;
+    overflow: hidden;
+    position: absolute;
+    top:75px;
+   
+  }
+
+  #utube{
+    width: 300px;
+  }
+  #img{
+    margin-top: 10px;
+  }
+
+  .main{
+    animation: scroll 10s linear infinite;
+    /* animation: scroll 20s linear infinite */
+  }
+
+  @keyframes scroll {
+    0% {
+      transform: translateY(0); /* start at initial position */
+    }
+    100% {
+      transform: translateY(-50%); /* end at top of container */
+    }
+  } 
+  .main:hover{
+    animation-play-state: paused;
+  } 
+  #gall {
+    height: 80%;
+  }
+
+  /* .about-text {
+    border-top: solid;
+    padding-top: 5px;
+  } */
+
+}
+
+#effect {
+  text-shadow: 0 1px 0 #efefef, 0 2px 0 #efefef, 0 3px 0 #efefef,
+    0 4px 0 #efefef, 0 30px 5px rgba(188, 79, 79, 0.1);
+  animation: effect 2s linear infinite;
+  animation-direction: alternate;
+}
+
+@keyframes effect {
+  from {
+    transform: rotate(5deg);
+  }
+  to {
+    transform: rotate(-5deg);
+  }
+}
+
+/* .card .card-content {
+    position: absolute;
+    bottom: -180px;
+    left: 0;
+    color: rgb(0, 0, 0);
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(15px);
+    min-height: 195px;
+    width: 100%;
+    transition: bottom .4s ease-in;
+    box-shadow: 0 -10px 10px rgba(255, 255, 255, 0.1);
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+   opacity: 0;
+    
+}
+
+.card:hover .card-content {
+    bottom: 0px;
+    opacity: 1;
+} */
+
+/* .card:hover .card-content a {
+    transform: translateY(10px);
+    opacity: 1;
+} */
+
+.card {
+  position: relative;
+  overflow: hidden;
+}
+.card .card-content {
+  position: absolute;
+  bottom: -180px;
+  left: 0;
+  color: rgb(0, 0, 0);
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(15px);
+  min-height: 140px;
+  width: 100%;
+  transition: bottom 0.4s ease-in;
+  box-shadow: 0 -10px 10px rgba(255, 255, 255, 0.1);
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  cursor: pointer;
+}
+
+.card:hover .card-content {
+  bottom: 0px;
+}
